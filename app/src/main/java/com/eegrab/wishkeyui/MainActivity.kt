@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(mytoolbar)
 
+        getSupportActionBar()?.setDisplayShowTitleEnabled(false);
+
 
 
     }
